@@ -8,20 +8,18 @@ $(document).ready(function(){
 		if(event.keyCode===13){
 			localStorage.setItem('todo' + i, $TodoBox.val());
 	// write todo on the lists
-		$('.todoList').append('<div class="todoItem" >'+' <input type="radio" id="checkbox'+i+'">' + localStorage.getItem('todo' + i) + '</div>');
+		$('.todoList').append('<div class="todoItem" >'+'<input type="radio">'+localStorage.getItem('todo' + i) + '</div>');
 		i=i+1;
 		}		
 	});
 
 
-	$('todoList').on("click",function(event){
-		$(this).remove();
-		event.preventDefault();
-		console.log('dwewwd')
-		alert('232323')
+
+
+	$(document).on('click', 'div.todoItem', function() {
+			console.log(this)
+			$(this).remove();
 	})
-
-
 
 
 })

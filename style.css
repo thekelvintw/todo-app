@@ -21,7 +21,8 @@
 }
 
 .todoTitle{
-	background-color:#DC4156;
+	/*background-color:#DC4156;*/
+	background-image:linear-gradient(#DC4156,#D4305A);
 	height:50px;
 	border-top-left-radius: 5%;
 	border-top-right-radius: 5%;
@@ -40,4 +41,8 @@
 	font-size:14px;
 	/*height:30px;*/
 	/*width:200px;*/
+}
+
+.button{
+	background:;
 }
