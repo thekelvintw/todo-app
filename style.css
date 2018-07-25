@@ -1,8 +1,32 @@
 .test{
 	border:1px, black, solid;
-	color:red;
+	color:color:#fff;
+	background-color:#171E36;
 }
 
-#writeTodoBox{
-	width:500px;
+/*#writeTodoBox{
+	width:200px;
+}*/
+
+.todoCantainer,.todoTitle{
+	font:16px;
+	width:250px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:200px;
+	box-shadow: 0 8px 6px -6px black;
+}
+
+.todoTitle{
+	background-color:#DC4156;
+
+
+}
+
+.todoItem{
+	background-color:#272F4B;
+	color:#fff;
+	padding-left:5px;
+	font-size:14px;
+	/*width:200px;*/
 }
