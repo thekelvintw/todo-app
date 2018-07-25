@@ -13,6 +13,7 @@ $(document).ready(function(){
 		}		
 	});
 
+
 	$('todoList').on("click",function(event){
 		$(this).remove();
 		event.preventDefault();
