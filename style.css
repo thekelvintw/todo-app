@@ -16,11 +16,19 @@
 	margin-top:200px;
 	box-shadow: 0 8px 6px -6px black;
 }
+.todoCantainer{
+	
+}
 
 .todoTitle{
 	background-color:#DC4156;
+	height:50px;
+}
 
-
+.todoTitle p{
+	line-height:50px;
+	vertical-align:middle;
+	margin-left:25px;
 }
 
 .todoItem{
