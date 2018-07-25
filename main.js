@@ -13,8 +13,8 @@ $(document).ready(function(){
 		}		
 	});
 
-	$('.todoItem').on("click",function(event){
-		// $(this).remove();
+	$('todoList').on("click",function(event){
+		$(this).remove();
 		event.preventDefault();
 		console.log('dwewwd')
 		alert('232323')
