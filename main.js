@@ -8,11 +8,12 @@ $(document).ready(function(){
 		if(event.keyCode===13){
 			localStorage.setItem('todo' + i, $TodoBox.val())
 		console.log(i)	
+		$('.todoList').append('<div class="todoItem">' + localStorage.getItem('todo' + i) + '</div>');
 		i=i+1
 		}
-		var todoItem
-		$('.todoList').text(localStorage.getItem('todo' + i));
-
+		// var todoItem
+		// $('.todoList').text(localStorage.getItem('todo' + i));
+		
 	})
 
 
